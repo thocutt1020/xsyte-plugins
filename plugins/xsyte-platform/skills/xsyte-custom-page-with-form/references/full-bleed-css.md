@@ -1,5 +1,7 @@
 # Full-bleed page CSS overrides
 
+> **Check the Standalone page type first.** Setting the page's type to *Standalone* in the admin strips all chrome natively — no CSS needed. Use the overrides below only when the page must stay type Normal/Hero, or on templates without standalone support.
+
 When a custom xsyte page should take over the entire viewport — no header, no nav, no sponsor strip, no footer, no breadcrumb — drop this CSS at the top of the page's `<style>` block.
 
 This is the canonical pattern from PowerPlay 209 and MIHWA. It targets the specific IDs and classes from the xsyte page shell template.

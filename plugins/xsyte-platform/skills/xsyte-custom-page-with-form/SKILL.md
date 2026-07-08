@@ -134,7 +134,12 @@ Other libraries the page might want (Google Fonts, Chart.js, etc.) need to be lo
 
 ## Full-bleed pages
 
-When the page should take over the entire viewport (no xsyte header, footer, nav, sponsor strip), include the chrome-hiding CSS overrides at the top of the `<style>` block. The full snippet is in `references/full-bleed-css.md`. This is the same pattern used on `powerplay209.hockeysyte.com` and `mihwa.hockeysyte.com` for their sponsor / signup pages.
+When the page should take over the entire viewport (no xsyte header, footer, nav, sponsor strip), there are two paths:
+
+1. **Preferred: the Standalone page type.** In the page admin, set Page Type to *Standalone*. The platform's standalone template natively strips ALL chrome (header, nav, footer, sponsor strip) and hands the page full-width control — no CSS overrides needed. Ask the user to set the type; the page content then only needs its own styling.
+2. **Fallback: the chrome-hiding CSS overrides** at the top of the `<style>` block — the full snippet is in `references/full-bleed-css.md`. Use this when the page must remain type Normal/Hero (e.g. it also needs the auto-title or lives in nav flows), or on older xsyte templates. This is the pattern used on `powerplay209.hockeysyte.com` and `mihwa.hockeysyte.com`.
+
+Either way, remember a standalone/full-bleed page has no site navigation — include your own buttons or links so visitors aren't stranded.
 
 When the page should sit *inside* the xsyte's normal chrome (header, footer, nav still visible), do not include the chrome-hiding overrides. Style the form as a content block instead.
 
