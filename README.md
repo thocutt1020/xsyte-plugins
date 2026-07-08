@@ -7,7 +7,7 @@ Claude plugins for building on the [xsyte](https://hockeysyte.com) sports-league
 In Claude Code (or the Claude desktop app's plugin settings):
 
 ```
-/plugin marketplace add YOUR_GITHUB_USER/xsyte-plugins
+/plugin marketplace add thocutt1020/xsyte-plugins
 /plugin install xsyte-platform@xsyte-plugins
 ```
 
