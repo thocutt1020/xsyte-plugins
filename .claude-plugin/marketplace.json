@@ -1,0 +1,21 @@
+{
+  "name": "xsyte-plugins",
+  "description": "Skills for building on the xsyte sports-league platform (hockeysyte, sportssyte, soccersyte)",
+  "owner": {
+    "name": "Tracy Hocutt",
+    "email": "thocutt1020@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "xsyte-platform",
+      "source": "./plugins/xsyte-platform",
+      "description": "Build custom xsyte pages with embedded data-capture forms — Twig success states, WYSIWYG-safe form helpers, full-bleed layouts, and spam-safe wiring for /forms/handle_form_response",
+      "author": {
+        "name": "Tracy Hocutt"
+      },
+      "license": "MIT",
+      "keywords": ["xsyte", "hockeysyte", "sportssyte", "twig", "forms", "custom-pages", "sports-league"],
+      "category": "web-development"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "xsyte-platform",
+  "description": "Build custom xsyte pages with embedded data-capture forms — Twig success states, WYSIWYG-safe form helpers, full-bleed layouts, and spam-safe wiring for /forms/handle_form_response",
+  "author": {
+    "name": "Tracy Hocutt"
+  }
+}
