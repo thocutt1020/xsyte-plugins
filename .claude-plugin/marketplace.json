@@ -13,6 +13,7 @@
       "author": {
         "name": "Tracy Hocutt"
       },
+      "homepage": "https://xsyte.zendesk.com/hc/en-us/articles/16757844664207-Install-the-Xsyte-Skill-for-Claude",
       "license": "MIT",
       "keywords": ["xsyte", "hockeysyte", "sportssyte", "twig", "forms", "custom-pages", "sports-league"],
       "category": "web-development"
