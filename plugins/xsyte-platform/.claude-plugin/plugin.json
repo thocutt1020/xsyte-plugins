@@ -1,7 +1,21 @@
 {
   "name": "xsyte-platform",
-  "description": "Build custom xsyte pages with embedded data-capture forms — Twig success states, WYSIWYG-safe form helpers, full-bleed layouts, and spam-safe wiring for /forms/handle_form_response",
+  "version": "0.6.0",
+  "description": "Foundational skills for working on the xsyte platform — site chrome and Brand Kit, data-source-driven custom pages with Page Fields for club-editable values, form wiring, and a verification harness that lints and measures before anything is pasted.",
   "author": {
-    "name": "Tracy Hocutt"
-  }
+    "name": "xsyte"
+  },
+  "keywords": [
+    "xsyte",
+    "hockeysyte",
+    "sportssyte",
+    "clubsyte",
+    "custom-page",
+    "brand-kit",
+    "forms",
+    "twig",
+    "data-sources",
+    "page-fields",
+    "simple-mode"
+  ]
 }
