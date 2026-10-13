@@ -15,13 +15,12 @@ In Claude Code (or the Claude desktop app's plugin settings):
 
 ### xsyte-platform
 
-**xsyte-custom-page-with-form** — builds custom xsyte pages that capture data through the xsyte forms system and flip to a thank-you state on submission. It encodes the platform wiring that's easy to get wrong:
+Four skills — full descriptions in [`plugins/xsyte-platform/README.md`](plugins/xsyte-platform/README.md):
 
-- Form controls via CodeIgniter Twig helpers (positional arguments), never raw HTML — raw `<textarea>`/`<input>` tags destroy the page editor
-- `form_open` / hidden `form_id` + `page_id` / offscreen honeypot wiring for `/forms/handle_form_response`
-- `{% if success %}` thank-you states on hero and form sections
-- Full-bleed chrome-hiding CSS for takeover pages
-- Copy-paste templates for sponsor interest, signups, registration, contact, and RSVP forms
+- **xsyte-brand-kit** — the site-wide chrome (Brand Kit Code Mode CSS, header, footer) from a design handoff, built on the kit's `--bk-*` colour and font variables so clubs can still re-brand from the pickers.
+- **xsyte-page-blocks** — custom pages and Custom Layout blocks fed by calendar, news and shop data sources, with Page Fields so clubs edit their own values.
+- **xsyte-custom-page-with-form** — data-capture pages that post to the xsyte forms system and flip to a thank-you state.
+- **xsyte-verify** — lint with the platform's own Twig, render with sample data, and measure contrast and overflow before anything is pasted.
 
 ## Updating
 

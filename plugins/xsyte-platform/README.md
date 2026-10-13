@@ -17,7 +17,9 @@ Header HTML and Footer HTML. Covers the section order for a global stylesheet,
 the platform-neutralisation ruleset (each override paired with the behaviour it
 fixes), the specificity doctrine that keeps a defaults layer from eating every
 class you write, scoping full-bleed so it does not drag the platform's own
-pages out with it, and the header/drawer/footer anatomy.
+pages out with it, and the header/drawer/footer anatomy. Builds on the Brand
+Kit's own `--bk-*` colour, font and logo variables so a custom header keeps
+following the club's Visual Mode pickers and Fonts tab.
 
 Read this when a whole site needs a look, or when platform chrome is fighting
 the design.

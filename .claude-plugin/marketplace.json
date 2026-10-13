@@ -9,13 +9,24 @@
     {
       "name": "xsyte-platform",
       "source": "./plugins/xsyte-platform",
-      "description": "Build custom xsyte pages with embedded data-capture forms — Twig success states, WYSIWYG-safe form helpers, full-bleed layouts, and spam-safe wiring for /forms/handle_form_response",
+      "description": "Foundational skills for working on the xsyte platform — site chrome and Brand Kit, data-source-driven custom pages with Page Fields for club-editable values, form wiring, and a verification harness that lints and measures before anything is pasted.",
       "author": {
         "name": "Tracy Hocutt"
       },
       "homepage": "https://xsyte.zendesk.com/hc/en-us/articles/16757844664207-Install-the-Xsyte-Skill-for-Claude",
       "license": "MIT",
-      "keywords": ["xsyte", "hockeysyte", "sportssyte", "twig", "forms", "custom-pages", "sports-league"],
+      "keywords": [
+        "brand-kit",
+        "custom-pages",
+        "data-sources",
+        "forms",
+        "hockeysyte",
+        "page-fields",
+        "sports-league",
+        "sportssyte",
+        "twig",
+        "xsyte"
+      ],
       "category": "web-development"
     }
   ]
