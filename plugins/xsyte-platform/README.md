@@ -60,6 +60,19 @@ real widths.
 
 Ships three scripts: `twig_lint.php`, `render_page.php`, `measure_page.js`.
 
+### `xsyte-season-builder`
+
+Set up a competition from a prompt. A league, tournament or casual-games
+group with its divisions, a season, teams per division, a venue and the first
+games — from a spreadsheet, a photo of the draw, a fixture list or plain
+English — through the site's Setup API (`GET /api/setup/structure`,
+`POST /api/setup/competition`) and the season-level structure and schedule
+endpoints. Read first, dry-run second, apply on a yes; every call is
+idempotent, so a replayed payload reuses what exists. Needs the site's API
+key (admin → Settings → API keys) in `XSYTE_API_KEY` and the site in
+`XSYTE_SITE_URL`; ships `scripts/xsyte_api.sh`, which forces `dry_run` unless
+told `--apply` and never prints the key.
+
 ## How they fit together
 
 ```
@@ -71,6 +84,8 @@ xsyte-custom-page-with-form  →  pages that capture data
               ↓  always, before pasting
 
 xsyte-verify         →  parse it, render it, measure it
+
+xsyte-season-builder →  the competition itself: divisions, teams, games (API)
 ```
 
 ## Installation

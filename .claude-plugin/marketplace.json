@@ -9,7 +9,7 @@
     {
       "name": "xsyte-platform",
       "source": "./plugins/xsyte-platform",
-      "description": "Foundational skills for working on the xsyte platform — site chrome and Brand Kit, data-source-driven custom pages with Page Fields for club-editable values, form wiring, and a verification harness that lints and measures before anything is pasted.",
+      "description": "Foundational skills for working on the xsyte platform \u2014 site chrome and Brand Kit, data-source-driven custom pages with Page Fields for club-editable values, form wiring, a verification harness that lints and measures before anything is pasted, and a season builder that sets up leagues, tournaments, teams and schedules through the site's API.",
       "author": {
         "name": "Tracy Hocutt"
       },
@@ -25,7 +25,10 @@
         "sports-league",
         "sportssyte",
         "twig",
-        "xsyte"
+        "xsyte",
+        "season-builder",
+        "api",
+        "seasons"
       ],
       "category": "web-development"
     }
